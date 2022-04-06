@@ -1,13 +1,10 @@
-##연산자 연습 프로그램 (1851782, 이소정) ###
-num1= int(input("data1=> "))
-num2= int(input("data2=> "))
-print("%d+ %d= %10d" %(num1,num2,num1+num2)) #
-print("%d-%d= %d" %(num1,num2,num1-num2))
-print("%d** %d= %10d" %(num1,num2,num1**num2))  # 승수 구하기
-print("%d>%d/ %d" %(num1,num2,num1/num2))
-print("%d// %d= %10d" %(num1,num2,num1//num2)) # 몫 구하기
-print("%d>%d= %d" %(num1,num2,num1>num2))  # 대입연산자
-print("%d!=%d= %d" %(num1,num2,num1!=num2))
-print("%d>=%d= %d" %(num1,num2,num1>=num2))
-print("%d>>%d= %d" %(num1,num2,num1>>num2))
-print(num1>= 10 and num2!=100)
+##산술연산자(1851782, 이소정) ##
+ a=5; b=3
+print("덧셈 :", a+b)
+print("나눗셈 : %4.2f"%(a/b))
+print("몫 :",a//b)
+print("나머지 :", a%b)
+print("승수 :", a**b)
+
+
+
