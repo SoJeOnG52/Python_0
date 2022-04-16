@@ -16,4 +16,3 @@ def hap(*p):  #전달인자가 다양하거나 너무 많을때 사용
 #print("결과=",result)
 #result = hap(90,100,200,10,90,30,50,70,20)
 #print("결과=",result)
-
