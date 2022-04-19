@@ -14,4 +14,3 @@ print(sum(myShop.values()))  #전체 구매 가격
 #myShop["폰"]= 400
 
 
-

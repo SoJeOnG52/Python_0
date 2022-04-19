@@ -1,5 +1,4 @@
 import turtle as t
-
 def draw_square(size):
     for i in range(4):
         t.fd(size)
@@ -8,7 +7,8 @@ def draw_square(size):
 
 t.color('red')
 
-draw_square()
-
+for i in range(50):
+    draw_square()
+    t.left(10)
 
 t.done()
