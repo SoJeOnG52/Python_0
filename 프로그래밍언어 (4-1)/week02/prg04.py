@@ -13,6 +13,14 @@ for i in range(1,101,1):
     sum+=i     #sum+=i-> sum= sum+i 둘이 더한 값을 sum에 반복적으로 넣음
 print("합은 %d" % sum)
 
+# while문 변경
+i= 1
+sum= 0
+while i <101:
+    sum += i
+    i+=1
+print("합은 %d" % sum)
+
 # su 에 입력한 숫자의 구구단 #
 su= int(input("수를 입력="))
 for i in range(2,10,1) :

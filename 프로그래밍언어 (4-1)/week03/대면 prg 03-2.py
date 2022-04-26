@@ -3,7 +3,7 @@ hap=0
 imin=imax=temp[0]
 for i in temp:  #여기서 range 쓰려면 범위가 있어야하는데 temp가 범위 그자체임으로 temp를 써준다
     print(i,end=" ")
-    hap+=i
+    hap+=i #hap=hap+i
     if imax<i :
         imax=i
     if imin>i:
