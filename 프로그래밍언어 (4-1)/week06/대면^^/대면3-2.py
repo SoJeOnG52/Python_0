@@ -1,4 +1,4 @@
-#from turtle import*
+# week06 함수와 모듈 (1851782 이소정) #
 import turtle as t
 
 def draw_square(size):
